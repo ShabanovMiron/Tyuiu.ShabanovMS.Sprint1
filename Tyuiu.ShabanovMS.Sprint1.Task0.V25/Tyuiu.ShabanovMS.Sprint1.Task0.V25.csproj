@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4CF12470-6F22-4FA0-B033-A8CDCC312FFA}</ProjectGuid>
+    <ProjectGuid>{7C5047D4-C6E1-4E42-A8E7-9B02D388C2F3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.ShabanovMS.Sprint1.Task0.V0</RootNamespace>
-    <AssemblyName>Tyuiu.ShabanovMS.Sprint1.Task0.V0</AssemblyName>
+    <RootNamespace>Tyuiu.ShabanovMS.Sprint1.Task0.V25</RootNamespace>
+    <AssemblyName>Tyuiu.ShabanovMS.Sprint1.Task0.V25</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -41,8 +41,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="tyuiu.cources.programming.interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="tyuiu.cources.programming.interfaces">
       <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
   </ItemGroup>

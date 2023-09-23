@@ -10,9 +10,9 @@ namespace Tyuiu.ShabanovMS.Sprint1.Task2.V23.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double a = 2;
-            double x = 60;
-            var res = ds.Calculate(a, x);
+            int x = 60;
+            int value = 2;
+            var res = ds.ConvertMinutesToSeconds(value);
             Assert.AreEqual(120, res);
         }
     }

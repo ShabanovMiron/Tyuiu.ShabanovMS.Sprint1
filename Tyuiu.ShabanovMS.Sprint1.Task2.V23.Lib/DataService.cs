@@ -7,11 +7,12 @@ using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.ShabanovMS.Sprint1.Task2.V23.Lib
 {
-    public class DataService : ISprint1Task1V23
+    public class DataService : ISprint1Task2V23
     {
-        public double Calculate(double a, double x)
+        public int ConvertMinutesToSeconds(int value)
         {
-            return a * x;
+            int x = 60;
+            return value * x;
         }
     }
 }

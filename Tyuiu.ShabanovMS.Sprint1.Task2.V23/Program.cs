@@ -33,18 +33,19 @@ namespace Tyuiu.ShabanovMS.Sprint1.Task2.V23
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double a;
-            double x = 60;
+          
+            int x = 60;
 
             Console.WriteLine("Введите количество минут:");
-            a = Convert.ToDouble(Console.ReadLine());
+            int value = Convert.ToInt32(Console.ReadLine());
+           
 
             Console.WriteLine("* РЕЗУЛЬТАТ                                                               *");
             Console.WriteLine("***************************************************************************");
 
 
 
-            Console.WriteLine("Количество секунд в " + a + " минутах равно " + ds.Calculate(a, x));
+            Console.WriteLine("Количество секунд в " + value + " минутах равно " + ds.ConvertMinutesToSeconds(value));
             Console.ReadKey();
         }
 

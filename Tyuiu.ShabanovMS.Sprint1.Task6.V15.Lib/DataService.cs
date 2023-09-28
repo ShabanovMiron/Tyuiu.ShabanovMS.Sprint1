@@ -10,13 +10,11 @@ namespace Tyuiu.ShabanovMS.Sprint1.Task6.V15.Lib
     {
         public bool CheckLettersCount(string value)
         {
-            string str = "Больше букв или символов";
-            bool res = false;
             int Letters = 0;
             int Symbols = 0;
-            for (int i = 0; i < str.Length; i++)
+            for (int i = 0; i < value.Length; i++)
             {
-                if (char.IsLetter(str[i]))
+                if (char.IsLetter(value[i]))
                 {
                     Letters++;
                 }
@@ -24,15 +22,8 @@ namespace Tyuiu.ShabanovMS.Sprint1.Task6.V15.Lib
                 {
                     Symbols++;
                 }
-                if (Letters > Symbols)
-                {
-                    res = true;
-                }
-                else
-                {
-                    res = false;
-                }
             }
+            bool res = Letters > Symbols;
             return res;
         }
     }

@@ -10,7 +10,7 @@ namespace Tyuiu.ShabanovMS.Sprint1.Task6.V15.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            string value = "Больше букв чем символов!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"; 
+            string value = "Больше букв или символов!!"; 
             bool res = ds.CheckLettersCount(value);
             bool wait = true;
             Assert.AreEqual(res, wait);
